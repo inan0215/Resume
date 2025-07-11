@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vooturi Yuvaraju Reddy - Resume</title>
+    <style>
+        /* A4 Paper Simulation Styles */
+        body {
+            /* Set a background color to see the A4 page effect */
+            background-color: #525659;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            /* A4 Dimensions */
+            width: 21cm;
+            min-height: 29.7cm;
+
+            /* Visual Styling */
+            background: #fff;
+            margin: 1rem auto; /* Adds some space above and below the paper */
+            padding: 1.5cm 2cm; /* Document margins */
+            box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+            box-sizing: border-box; /* Ensures padding is included in the width/height */
+        }
+
+        /* General Resume Styles (mostly unchanged) */
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            letter-spacing: 1px;
+        }
+        header p {
+            margin: 5px 0;
+            font-size: 0.9em;
+        }
+        header a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        h2 {
+            font-size: 1.2em;
+            color: #0056b3;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 5px;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+        .section p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+        .skills-list, .interests-list {
+            list-style: none;
+            padding: 0;
+        }
+        .skills-list li, .interests-list li {
+            background-color: #e9ecef;
+            border-radius: 5px;
+            display: inline-block;
+            padding: 5px 10px;
+            margin: 0 10px 10px 0;
+            font-size: 0.9em;
+        }
+        .experience, .education, .project {
+            margin-bottom: 20px;
+        }
+        .experience h3, .education h3, .project h3 {
+            margin-bottom: 5px;
+            font-size: 1.1em;
+        }
+        .experience .company, .education .institution {
+            font-weight: bold;
+            font-style: italic;
+        }
+        .date {
+            float: right;
+            font-style: italic;
+            color: #666;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+
+        /* Print-specific Styles */
+        @media print {
+            body {
+                background-color: #fff; /* White background for printing */
+                margin: 0;
+                padding: 0;
+            }
+            .container {
+                width: auto;
+                min-height: auto;
+                margin: 0;
+                padding: 0;
+                box-shadow: none; /* No shadow when printing */
+                border: none;
+            }
+            .date {
+                color: #000;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>VOOTURI YUVARAJU REDDY</h1>
+            <p>7989439784 | <a href="mailto:vooturiyuvarajureddy@gmail.com">vooturiyuvarajureddy@gmail.com</a> | Bengaluru, IN | <a href="#linkedin">@Linkedin</a> | <a href="#github">@Github</a></p>
+        </header>
+
+        <div class="section">
+            <h2>Career Objective</h2>
+            <p>A highly motivated and enthusiastic Computer Science and Engineering graduate with a solid academic background and hands-on experience in web development, databases, and programming. Known for being self-disciplined, hardworking, and a strong team player with proven managerial and problem-solving abilities. Actively seeking an entry-level position in the IT industry where I can apply my technical skills, contribute to innovative solutions, and grow in a dynamic, challenging environment. Eager to learn and continuously improve to grow in my career.</p>
+        </div>
+
+        <div class="section">
+            <h2>Technical Skills</h2>
+            <ul class="skills-list">
+                <li>Java</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>ReactJs</li>
+                <li>Hibernate</li>
+                <li>Spring Boot</li>
+                <li>SQL</li>
+                <li>Adaptability</li>
+                <li>Time Management</li>
+                <li>Problem Solving</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Education</h2>
+            <div class="education">
+                <span class="date">2021 – 2025</span>
+                <h3>Bachelor of Technology in Computer Science and Engineering</h3>
+                <p class="institution">Gates institute of Technology</p>
+                <p>Score: 76.48 / 100</p>
+            </div>
+            <div class="education">
+                <span class="date">2019 – 2021</span>
+                <h3>Intermediate (M.P.C)</h3>
+                <p class="institution">Narayana Jr College</p>
+                <p>Score: 87.8 / 100</p>
+            </div>
+            <div class="education">
+                <span class="date">2018 – 2019</span>
+                <h3>Secondary School Certificate</h3>
+                <p class="institution">Sree Valmeeki High School</p>
+                <p>Score: 9.8 / 10</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Internship Experience</h2>
+            <div class="experience">
+                <span class="date">May 2025 – Present</span>
+                <h3>Full Stack Java Developer Internship</h3>
+                <p class="company">Kodnest Technologies Pvt. Ltd. | Bengaluru</p>
+                <ul>
+                    <li>Undergoing hands-on training in full-stack Java development including Core Java, JDBC, Servlets, JSP, and Spring Framework.</li>
+                    <li>Learning problem-solving techniques and practicing DSA (Data Structures & Algorithms) regularly.</li>
+                    <li>Gaining exposure to industry practices, clean coding standards, and real-time development workflow through mentor-led sessions.</li>
+                </ul>
+            </div>
+            <div class="experience">
+                <span class="date">Jan 2025 – Apr 2025</span>
+                <h3>Full Stack Java Virtual Internship</h3>
+                <p class="company">Datavalley India Pvt. Ltd. | Virtual</p>
+                <ul>
+                    <li>Gained knowledge of Java programming fundamentals, including OOP principles, and data structures.</li>
+                    <li>Gained proficiency in building web applications using Java, and front-end technologies like HTML, CSS, and JavaScript.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Online Voting System</h3>
+                <p>Developed a secure and efficient web-based voting application using Spring Boot, Hibernate, and MySQL to streamline the election process. The system ensures voter authentication, role-based access, and real-time result visibility through a responsive and intuitive user interface.</p>
+                <ul>
+                    <li><strong>Backend with Spring Boot & Hibernate:</strong> Implemented RESTful APIs and business logic using Spring Boot, with Hibernate ORM for seamless interaction with the MySQL database.</li>
+                    <li><strong>User Authentication & Role-Based Access Control:</strong> Developed secure login modules for voters and administrators using Spring Security, ensuring data privacy and access segregation.</li>
+                    <li><strong>Real-Time Vote Counting & Results Display:</strong> Enabled live vote tallying and transparent result updates with optimized database queries and backend logic.</li>
+                    <li><strong>Responsive Frontend:</strong> Built the UI using HTML, CSS, and JavaScript, ensuring accessibility and smooth user experience across devices.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Interests</h2>
+            <ul class="interests-list">
+                <li>Yoga & mindfulness</li>
+                <li>Learning Hindi & Kannada</li>
+                <li>Cooking</li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>
